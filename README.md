@@ -39,7 +39,8 @@ module.exports = function() {
   return "function(){ return $.getJSON('" + filename + "'); }"
 }
 ```
-```
+
+```js
 //app.js
 var text = require("text.node");
 text().done(function(json) {
